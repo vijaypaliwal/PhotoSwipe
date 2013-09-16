@@ -1,84 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>PhotoSwipe</title>
-	<meta name="author" content="Ste Brennan - Code Computerlove - http://www.codecomputerlove.com/" />
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<link href="styles.css" type="text/css" rel="stylesheet" />
-	
-	<link href="photoswipe.css" type="text/css" rel="stylesheet" />
-	
-	<script type="text/javascript" src="lib/klass.min.js"></script>
-	<script type="text/javascript" src="code.photoswipe-3.0.5.min.js"></script>
-	
-	
-	<script type="text/javascript">
+﻿
+<link rel="stylesheet" href="jquery-mobile/jquery.mobile-1.3.2.min.css" />
+ <a href="#" onclick="RedirectToMainMenu();"><img style="height: auto; width: 100%;" src="MainCover.jpg" alt="Maincover" /></a>
 
-		(function(window, PhotoSwipe){
-		
-			document.addEventListener('DOMContentLoaded', function(){
-			
-				var
-					options = {},
-					instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery a'), options );
-			
-			}, false);
-			
-			
-		}(window, window.Code.PhotoSwipe));
-		
-	</script>
-	
-</head>
-<body>
+<script>
+    function RedirectToMainMenu()
+    {
+        window.location.href = "Menu.html";
+    }
+	 
+ function xyz()
+ {}
+</script>
 
-<div id="Header">
-	<a href="http://www.shivamitconsultancy.com"><img src="images/OnlyLogo.png" width="100" height="48" alt="Code Computerlove" /></a>
-</div>
 
-<div id="MainContent">
 
-	<div class="page-content">
-		<h1>PhotoSwipe</h1>
-	</div>
-	
-	<ul id="Gallery" class="gallery">
-		
-		<li><a href="images/full/1.jpg"><img src="images/thumb/1.jpg" alt="Image 001" /></a></li>
-		<li><a href="images/full/2.jpg"><img src="images/thumb/2.jpg" alt="Image 002" /></a></li>
-		<li><a href="images/full/3.jpg"><img src="images/thumb/3.jpg" alt="Image 003" /></a></li>
-		<li><a href="images/full/4.jpg"><img src="images/thumb/4.jpg" alt="Image 004" /></a></li>
-		<li><a href="images/full/5.jpg"><img src="images/thumb/5.jpg" alt="Image 005" /></a></li>
-		<li><a href="images/full/6.jpg"><img src="images/thumb/6.jpg" alt="Image 006" /></a></li>
-		<li><a href="images/full/7.jpg"><img src="images/thumb/7.jpg" alt="Image 007" /></a></li>
-		<li><a href="images/full/8.jpg"><img src="images/thumb/8.jpg" alt="Image 008" /></a></li>
-		<li><a href="images/full/9.jpg"><img src="images/thumb/9.jpg" alt="Image 009" /></a></li>
-		<li><a href="images/full/10.jpg"><img src="images/thumb/10.jpg" alt="Image 010" /></a></li>
-		<li><a href="images/full/11.jpg"><img src="images/thumb/11.jpg" alt="Image 011" /></a></li>
-		<li><a href="images/full/12.jpg"><img src="images/thumb/12.jpg" alt="Image 012" /></a></li>
-		<li><a href="images/full/13.jpg"><img src="images/thumb/13.jpg" alt="Image 013" /></a></li>
-		<li><a href="images/full/14.jpg"><img src="images/thumb/14.jpg" alt="Image 014" /></a></li>
-		<li><a href="images/full/15.jpg"><img src="images/thumb/15.jpg" alt="Image 015" /></a></li>
-		<li><a href="images/full/16.jpg"><img src="images/thumb/16.jpg" alt="Image 016" /></a></li>
-		 
-		
-	</ul>
-	
-</div>	
 
-	
-<div id="Footer">
-	<p><small>&copy; 2013 SHIVAM ITCS - PhotoSwipe APP</small></p>
 
-	<div id="SocialLinks">
-		<a href="#"><img src="images/blogicon.png" width="32" height="32" alt="Blog" /></a>
-		<a href="#"><img src="images/twittericon.png" width="32" height="32" alt="Twitter" /></a>
-		<a href="#"><img src="images/facebookicon.png" width="32" height="32" alt="Facebook" /></a>
-		<a href="#"><img src="images/flickricon.png" width="32" height="32" alt="Flickr" /></a>
-	</div>
-	
-</div>
-
-</body>
-</html>
